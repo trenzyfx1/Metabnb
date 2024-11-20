@@ -15,7 +15,7 @@ ul {
 .menu {
     justify-content: space-between;
     padding: 5px 100px;
-    position: relative;
+    /* position: relative; */
     top: -30px;
 }
 
@@ -25,7 +25,7 @@ li {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    position: relative;
+    /* position: relative; */
     right: 100px;
 
 }
@@ -33,7 +33,7 @@ li {
 .head {
     font-family: sans-serif;
     color: #A02279;
-    position: relative;
+    /* position: relative; */
     left: 100px;
     font-size: 50px;
     cursor: pointer;
@@ -50,7 +50,7 @@ li {
 }
 
 .logo {
-    position: relative;
+    /* position: relative; */
     top: 60px;
     left: 150px;
 }
@@ -62,22 +62,18 @@ li {
     color: #fff;
     height: 48px;
     width: 170px;
-    position: relative;
+    /* position: relative; */
     top: 40px;
     cursor: pointer;
     
 }
 
-.body {
-    position: relative;
-
-}
 
 .welcome {
     font-family: "red rose", sans-serif;
     font-weight: 500;
-    position: absolute;
-    left: 140px;
+    /* position: absolute;
+    left: 140px; */
 }
 
 span {
@@ -87,18 +83,18 @@ span {
 
 
 .p {
-    position: absolute;
+    /* position: absolute; */
     left: 140px;
     top: 100px;
 }
 
 .house {
-    position: absolute;
+    /* position: absolute; */
     right: 150px;
 }
 
 .input {
-    position: absolute;
+    /* position: absolute; */
     left: 140px;
     top: 200px;
 }
@@ -120,7 +116,7 @@ span {
     height: 38px;
     width: 130px;
     cursor: pointer;
-    position: absolute;
+    /* position: absolute; */
     left: 223px;
     
 
@@ -128,7 +124,7 @@ span {
 
 .section {
     background-color: #A02279;
-    position: relative;
+    /* position: relative; */
     top: 500px;
     color: #fff;
     
@@ -152,32 +148,38 @@ span {
 .h2 {
     text-align: center;
     font-family: sans-serif;
-    position: absolute;
+    /* position: absolute; */
     top: 500px;
     left: 560px;
 }
 
-.frame1 {
-    position: absolute;
-    top: 600px;
-    left: 110px;
-    display: block;
+
+
+.desertking-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.frame {
     background-color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     border-radius: 15px;
-    border: 0.5px solid;
+    border: 0.5px solid #000;
+    position: relative;
 
 }
 
-.Frame1 {
-  padding-left: 15px;
 
+.div-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
 }
 
-.heart1 {
+.heart {
     position: absolute;
     left: 248px;
     top: 29px;
@@ -185,288 +187,17 @@ span {
     color: #fff;
 }
 
-.star1 {
-    justify-content: center;
-    align-items: center;
+.star {
+    display: flex;
     gap: 10px;
-    position: absolute;
-    bottom: -5px;
-    left: 125px;
     color: #A02279;
 }
-
-.frame2 {
-    position: absolute;
-    top: 600px;
-    left: 440px;
-    display: block;
-    background-color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border: 0.5px solid;
-
-}
-
-.Frame2 {
-  padding-left: 15px;
-
-}
-
-.heart2 {
-    position: absolute;
-    left: 248px;
-    top: 29px;
-    font-size: 25px;
-    color: #fff;
-}
-
-.star2 {
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    position: absolute;
-    bottom: -5px;
-    left: 125px;
-    color: #A02279;
-}
-
-.frame3 {
-    position: absolute;
-    top: 600px;
-    left: 770px;
-    display: block;
-    background-color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border: 0.5px solid;
-
-}
-
-.Frame3 {
-  padding-left: 15px;
-
-}
-
-.heart3 {
-    position: absolute;
-    left: 248px;
-    top: 29px;
-    font-size: 25px;
-    color: #fff;
-}
-
-.star3 {
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    position: absolute;
-    bottom: -5px;
-    left: 125px;
-    color: #A02279;
-}
-
-.frame4 {
-    position: absolute;
-    top: 600px;
-    right: 180px;
-    display: block;
-    background-color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border: 0.5px solid;
-
-}
-
-.Frame4 {
-  padding-left: 15px;
-
-}
-
-.heart4 {
-    position: absolute;
-    left: 248px;
-    top: 29px;
-    font-size: 25px;
-    color: #fff;
-}
-
-.star4 {
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    position: absolute;
-    bottom: -5px;
-    left: 125px;
-    color: #A02279;
-}
-
-.frame5 {
-    position: absolute;
-    top: 1030px;
-    left: 110px;
-    display: block;
-    background-color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border: 0.5px solid;
-
-}
-
-.Frame5 {
-  padding-left: 15px;
-
-}
-
-.heart5 {
-    position: absolute;
-    left: 248px;
-    top: 29px;
-    font-size: 25px;
-    color: #fff;
-}
-
-.star5 {
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    position: absolute;
-    bottom: -5px;
-    left: 125px;
-    color: #A02279;
-}
-
-.frame6 {
-    position: absolute;
-    top: 1030px;
-    left: 440px;
-    display: block;
-    background-color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border: 0.5px solid;
-
-}
-
-.Frame6 {
-  padding-left: 15px;
-
-}
-
-.heart6 {
-    position: absolute;
-    left: 248px;
-    top: 29px;
-    font-size: 25px;
-    color: #fff;
-}
-
-.star6 {
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    position: absolute;
-    bottom: -5px;
-    left: 125px;
-    color: #A02279;
-}
-
-.frame7 {
-    position: absolute;
-    top: 1030px;
-    left: 770px;
-    display: block;
-    background-color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border: 0.5px solid;
-
-}
-
-.Frame7 {
-  padding-left: 15px;
-
-}
-
-.heart7 {
-    position: absolute;
-    left: 248px;
-    top: 29px;
-    font-size: 25px;
-    color: #fff;
-}
-
-.star7 {
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    position: absolute;
-    bottom: -5px;
-    left: 125px;
-    color: #A02279;
-}
-
-.frame8 {
-    position: absolute;
-    top: 1030px;
-    right: 180px;
-    display: block;
-    background-color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border: 0.5px solid;
-
-}
-
-.Frame8 {
-  padding-left: 15px;
-
-}
-
-.heart8 {
-    position: absolute;
-    left: 248px;
-    top: 29px;
-    font-size: 25px;
-    color: #fff;
-}
-
-.star8 {
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    position: absolute;
-    bottom: -5px;
-    left: 125px;
-    color: #A02279;
-}
-
 
 
 .NFTs {
     background-color: #A02279;
     color: #fff;
-    position: relative;
+    /* position: relative; */
     top: 1500px;
 
 }
@@ -508,7 +239,6 @@ span {
 
 .section4 {
     position: relative;
-    top: 1500px;
     background-color: #000;
     color: #fff;
     padding-bottom: 300px;
