@@ -376,6 +376,7 @@ footer .footer-items .facebook,
         top: 0;
         left: 0;
         width: 100%;
+        border: 1px solid red;
         z-index: 1000;
         box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
         background-color: #fff;
@@ -385,6 +386,7 @@ footer .footer-items .facebook,
     .moblie-header .navbar {
         display: flex;
         flex-direction: row;
+        border: 1px solid red;
         width: 100%;
         justify-content: space-between;
         /* gap: 100%; */
@@ -665,17 +667,9 @@ footer .footer-items .facebook,
         gap: 50px;
     }
 
-    .desertking {
-        width: 100%;
-        margin: auto;
-    }
-
-    .desertking-cards {
-        width: 100%;
-    }
-
     .frame {
         width: 100% !important;
+        border: 1px solid red;
     }
 
     .desertking {

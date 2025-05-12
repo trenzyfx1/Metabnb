@@ -190,8 +190,6 @@ span {
 .h2 {
     text-align: center;
     font-family: sans-serif;
-    font-size: 30px;
-    margin-bottom: 30px;
 }
 
 
@@ -200,7 +198,7 @@ span {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    /* width: 80%; */
+    width: ;
     flex-wrap: wrap;
 
 }
@@ -209,13 +207,9 @@ span {
     background-color: #fff;
     padding: 20px;
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
     border: 0.5px solid #000;
     position: relative;
-    margin: auto;
-    /* max-width: 100%; */
-    gap: 30px;
+    max-width: 100%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
@@ -376,6 +370,7 @@ footer .footer-items .facebook,
         top: 0;
         left: 0;
         width: 100%;
+        border: 1px solid red;
         z-index: 1000;
         box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
         background-color: #fff;
@@ -385,6 +380,7 @@ footer .footer-items .facebook,
     .moblie-header .navbar {
         display: flex;
         flex-direction: row;
+        border: 1px solid red;
         width: 100%;
         justify-content: space-between;
         /* gap: 100%; */
@@ -660,22 +656,10 @@ footer .footer-items .facebook,
         line-height: 1;
     }
 
+    .intro-section,
     .NFTs {
         flex-direction: column;
         gap: 50px;
-    }
-
-    .desertking {
-        width: 100%;
-        margin: auto;
-    }
-
-    .desertking-cards {
-        width: 100%;
-    }
-
-    .frame {
-        width: 100% !important;
     }
 
     .desertking {
